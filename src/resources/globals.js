@@ -7,7 +7,7 @@ var globals = {
 		"5ce97f7b0b69011ea103dd26",
 		"5cead03fe068535ca71db55d",
 	],
-	apiString: "https://api.armbet.com",
+	apiString: "http://armbet.5stardesigners.net:3020",
 	cdnString: "https://armbet-api-cdn.azureedge.net/",
 	language: "en",
 };
