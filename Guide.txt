@@ -1,0 +1,9 @@
+Site structure:
+
+Pages -> Sections -> Layouts -> Elements -> Components
+
+Page example: About us page
+Section example: How does it work section
+Layout example: 2 column layout
+Element example: Navigation bar
+Component example: Button

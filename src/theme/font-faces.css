@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Brandon Grotesque Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Black'), url('../assets/fonts/black.woff') format('woff');
+} 
+@font-face {
+    font-family: 'Brandon Grotesque Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Regular'), url('../assets/fonts/regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Thin'), url('../assets/fonts/thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Light'), url('../assets/fonts/light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Brandon Grotesque Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Medium'), url('../assets/fonts/medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Bold'), url('../assets/fonts/bold.woff') format('woff');
+}

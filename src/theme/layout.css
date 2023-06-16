@@ -1,0 +1,108 @@
+:root {
+	--hPadding: 30px;
+	--sectionPadding: 80px;
+}
+
+.mobile-only {
+	display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+	.mobile-only {
+		display: block !important;
+	}
+}
+
+.tablet-only {
+	display: none !important;
+}
+
+@media screen and (max-width: 1020px) {
+	.tablet-only {
+		display: block !important;
+	}
+	.col-align-center-tablet {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	.desktop-only {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.desktop-and-tablet-only {
+		display: none;
+	}
+}
+
+.col-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row-center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.row-align-center {
+	display: flex;
+	align-items: center;
+}
+
+.col-6 {
+	min-width: 600px;
+	max-width: 50%;
+	height: 100%;
+}
+
+.col-8 {
+	min-width: 600px;
+	max-width: 70%;
+	height: 100%;
+}
+
+@media screen and (max-width: 1020px) {
+	.col-6,
+	.col-8 {
+		min-width: 70%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.col-6,
+	.col-8 {
+		min-width: 80%;
+	}
+}
+
+@media screen and (max-width: 526px) {
+	.col-6,
+	.col-8 {
+		min-width: 100%;
+	}
+}
+
+.hPadding {
+	padding-right: var(--hPadding);
+	padding-left: var(--hPadding);
+}
+
+.sectionVPadding {
+	padding-top: var(--sectionPadding);
+	padding-bottom: var(--sectionPadding);
+}
+
+@media screen and (max-width: 330px) {
+	.hPadding {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
